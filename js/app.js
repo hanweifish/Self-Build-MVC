@@ -92,8 +92,6 @@ var legoListView = {
 
 
             // on click, setCurrentCat and render the legoView
-            // (this uses the closure-in-a-loop trick to connect the value
-            //  of the lego variable to the click event function)
             var clickfunction = function(lego) {
                 return function() {
                     control.setCurrentLego(lego);
